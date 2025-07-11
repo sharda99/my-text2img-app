@@ -1,3 +1,4 @@
+pip install python-dotenv
 import os
 import io
 import torch
