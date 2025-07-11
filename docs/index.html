@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Text-to-Image Art Studio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>✨ Text-to-Image Art Studio ✨</h1>
+      <p>Type your dream scene, choose a style, and watch it come alive!</p>
+      <button id="launch-btn" class="cta-btn">Launch Studio</button>
+    </div>
+  </header>
+  <main>
+    <section id="studio" class="studio-section">
+      <iframe
+        id="studio-iframe"
+        src="https://huggingface.co/spaces/your-username/text-to-image-studio?iframe=true"
+        title="Text-to-Image Studio"
+        frameborder="0">
+      </iframe>
+    </section>
+  </main>
+  <footer>
+    <p>Made with ❤️ using Stable Diffusion & Gradio</p>
+    <p><a href="https://github.com/your-username/text-to-image-studio" target="_blank">Source on GitHub</a></p>
+  </footer>
+</body>
+</html>
 
