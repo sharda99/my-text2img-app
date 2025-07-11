@@ -1,1 +1,7 @@
+torch>=2.0.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+diffusers
+transformers
+accelerate
+gradio
+Pillow
 
