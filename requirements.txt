@@ -4,4 +4,4 @@ transformers
 accelerate
 gradio
 Pillow
-
+python-dotenv
